@@ -26,3 +26,17 @@ print(url)
 print(requests.get(url))
 ```
 
+```python
+import requests
+token = "763337042:AAEjq0JPofKKdu9_oYwVdi5O5L8JGz_xl6E"
+method_name = "getUpdates"
+url = 'https://api.telegram.org/bot{0}/{1}'.format(token,method_name)
+
+user_id = '602595803'
+method_name = "sendmessage"
+msg = "안녕하세요!!!"
+msg_url = 'https://api.telegram.org/bot{0}/{1}?chat_id={2}&text={3}'.format(token,method_name,user_id,msg)
+print(msg_url)
+print(requests.get(msg_url))
+```
+
