@@ -6,6 +6,8 @@ zzu.li/deep
 
 ### py.hphk.io
 
+- 카카오톡 플러스친구 (@python) 친구추가
+
 ```python
 # 안녕
 print("안녕하세요")
@@ -70,6 +72,7 @@ else:
 ```
 
 ```python
+# 코스피
 import requests
 from bs4 import BeautifulSoup
 url = "https://finance.naver.com/sise/"
@@ -81,7 +84,5 @@ select = soup.select_one('#KOSPI_now')
 print(select.text)
 ```
 
-```
 
-```
 
