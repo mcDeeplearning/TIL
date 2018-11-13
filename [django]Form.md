@@ -1,5 +1,7 @@
 # django-crud with Form
 
+![장고구조](./img/django.png)
+
 ### 프로젝트 이름 : board
 
 ### 앱 이름 : post
